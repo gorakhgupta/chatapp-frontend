@@ -1,0 +1,56 @@
+*{margin:0;
+    font-family: "Roboto";
+padding:0;
+box-sizing: border-box;
+}
+.JoinPage{
+    background-color: rgba(31,29,29);
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.JoinContainer{
+    /* border: 2px solid white; */
+    height:auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.JoinContainer > h1{
+    color:white;
+    margin-top: auto;
+    font-size: 2.5vmax;
+    font-family: 'Roboto', sans-serif;
+    width:auto;
+text-align: center;
+    border-bottom: 0.2vmax solid white;
+}
+#joinInput{
+    width: 25vmax;
+    padding: 1.5vmax;
+    border: none;
+    outline: none;
+    font-size: 1.5vmax;
+    margin: 2vmax;
+   
+
+}
+.joinBtn{
+    width: 25vmax;
+    padding: 1.5vmax;
+    border: none;
+    outline: none;
+    font-size: 1.5vmax;
+    margin: 2vmax;
+    background-color: crimson;
+  transition: all 0.3s;
+  cursor: pointer;
+
+}
+.joinBtn:hover{
+    background-color: rgb(167, 134, 141);
+}

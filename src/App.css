@@ -1,0 +1,60 @@
+.body{
+  margin: 0;
+}
+@media(max-width:768px)
+{
+  .JoinContainer{
+    
+    width:100% !important;
+ border: none;
+  }
+  .JoinContainer > h1{
+    
+  margin-top: 80px !important;
+    font-size: 9vw !important;
+
+    font-family: 'Roboto', sans-serif;
+    width:55vw !important;
+text-align: center;
+box-sizing: border-box;
+padding: 1vmax;
+    border-bottom: 0.2vmax solid white;
+}
+#joinInput{
+  margin-top: 30px !important;
+  width: 25vmax;
+  height: 60px !important;
+  padding: 1.5vmax;
+  border: none;
+  outline: none;
+  font-size: 1.5vmax;
+  
+  margin: 2vmax;
+ 
+
+}
+#joinInput::placeholder{
+  font-size: 18px;
+}
+.joinBtn{
+  width: 25vmax;
+  padding: auto;
+  border: none;
+  outline: none;
+  font-size: 1.5vmax;
+  margin: 2vmax;
+  font-size:40px;
+  background-color: crimson;
+transition: all 0.3s;
+cursor: pointer;
+height: 60px;
+
+}
+.chatContainer{
+    
+  height:100%;
+  width: 100%;
+  background: rgb(46, 16, 179);
+}
+
+}
